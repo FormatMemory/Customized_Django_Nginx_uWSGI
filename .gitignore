@@ -1,5 +1,5 @@
 #My config
-my_config/*.txt
+config/*.secret
 
 # vs code 
 *.vscode/*

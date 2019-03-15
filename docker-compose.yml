@@ -1,0 +1,10 @@
+version: "3"
+services:
+  python:
+    image: python:3.4
+    volumes:
+      - ./app:/app
+    ports:
+      -8000:8000
+    
+    command: cd /app && pip install -r requirements.txt && python manage.py runserver
